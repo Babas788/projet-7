@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.AppLogo{
+    height: 47px;
+    width: 145px;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10px;
+}
+.navButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6060;
+    font-family: 'Roboto', sans-serif;
+    size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px){
+
+    .header-logo{
+        padding: 0px 100px 0px 100px;
+        margin-bottom: 25px;
+    }
+    .AppLogo{
+        height: 68px;
+        width: 14%;
+        margin-top: 40px;
+    }
+    .navBar{
+    margin-top: 57px;
+    width: 21%;
+    }
+    .navButton{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+    }
+}
