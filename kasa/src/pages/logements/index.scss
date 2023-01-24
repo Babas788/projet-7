@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+
+.logement{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+}
+
+.productImage{
+width: 100%;
+border-radius: 10px;
+}
+
+.packshot{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.titleDescription{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #FF6060;
+}
+.location{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #FF6060;
+}
+
+.renseignements{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tagLogement{
+    display: flex;
+    width: 100%;
+}
+.tag{
+    margin-right: 15px;
+}
+
+.rateLogement{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapseLogement{
+    margin-bottom: 30px;
+}
+
+.host{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.host_picture{
+     height: 32px;
+     width: 32px;
+     border-radius: 25px;
+}
+@media screen and (min-width: 768px){
+    .logement{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 100px 0px 100px;
+    }
+    .productImage{
+        height:415px;
+        margin-top: 25px;
+    }
+    .collapseLogement{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logement_precision{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid blue;
+    }
+    .rateLogement{
+        border: 1px solid green;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}

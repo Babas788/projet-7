@@ -1,0 +1,10 @@
+@import "./components/header/index.scss";
+@import "./pages/home/index.scss";
+@import "./components/footer/index.scss";
+@import "./components/cards/index.scss";
+@import "./pages/logements/index.scss";
+@import "./pages/about/index.scss";
+@import "./components/tags/index.scss";
+@import "./components/collapse/index.scss";
+@import "./components/carousel/carousel.scss";
+@import "./pages/error/index.scss";

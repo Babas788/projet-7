@@ -1,0 +1,56 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bannerImg{
+    border-radius: 15px;
+    height: 111px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.text{
+position: absolute;
+left: 9.6%;
+right: 32.53%;
+top: 14%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #FFFFFF;
+}
+@media screen and (min-width: 768px){
+
+    .banner{
+        border: 1px solid red;
+        margin: 0px 100px 0px 100px;
+    }
+    .bannerImg{
+        height: 223px;
+        border-radius: 25px;
+        object-fit: cover;
+        border: 1px solid purple;
+        width: 100%;
+    }
+    .text{
+        height: 68px;
+        width: 50%;
+        left: 28%;
+        top: 23%;
+        font-family: 'Montserrat';
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 68px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

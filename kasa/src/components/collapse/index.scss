@@ -1,0 +1,39 @@
+.allCollapse{
+    display: flex;
+    flex-direction: column;
+}
+
+.collapse{
+    display:flex;
+    background-color:#FF6060;
+    color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.collapseTitle{
+    margin-left: 10px;
+}
+.arrowDown{
+    height: 15.2px;
+    margin-right: 10px;
+}
+
+.collapseText{
+    background: #F7F7F7;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 17.11px;
+    size: 12px;
+    color: #FF6060;
+    padding: 16px 27px 19px 18px;
+}
+@media screen and (min-width: 768px){
+    .allCollapse{
+        width: 65%;
+    }
+
+}
