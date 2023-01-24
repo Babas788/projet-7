@@ -22,8 +22,8 @@ const Carousel = ({ data }) => {
             key={index}
             className={
               index === current
-                ? "slide slider__active-picture"
-                : "slide slider__inactive-picture"
+                ? "active_image"
+                : "inactive_image"
             }
           >
             {index === current && (
