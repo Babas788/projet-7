@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import Next from "../../assets/next.svg";
 import Previous from "../../assets/previous.svg";
 
-const Carousel = ({ data }) => {
+function Carousel ({ data }) {
   const [current, setCurrent] = useState(0);
   const length = data.length;
 
-  const nextProduct = () => {
+  function nextProduct () {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
-  const previousProduct = () => {
+  function previousProduct () {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
