@@ -12,7 +12,7 @@ width: 100%;
 border-radius: 10px;
 }
 
-.packshot{
+.logement_detail{
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -71,6 +71,9 @@ color: #FF6060;
      width: 32px;
      border-radius: 25px;
 }
+.host_name{
+    color: #FF6060;
+}
 @media screen and (min-width: 768px){
     .logement{
         display: flex;
@@ -88,13 +91,29 @@ color: #FF6060;
     .logement_precision{
         display: flex;
         justify-content: space-between;
-        border: 1px solid blue;
+        margin-top: 0px;
+    }
+    .renseignements{
+        width: 40%;
     }
     .rateLogement{
-        border: 1px solid green;
-        height: 100%;
         display: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: flex-end;
         flex-direction: column-reverse;
+        margin-top: -1px;
+    }
+    .host_picture{
+        height: 64px;
+        width: 64px;
+        border-radius: 50px;
+    }
+    .host_name{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FF6060;
     }
     
 }

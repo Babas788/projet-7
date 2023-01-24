@@ -12,7 +12,7 @@ function Logement() {
     <div className="logement">
       <Carousel data={product.pictures} />
       <div className="logement_precision">
-        <div className="packshot">
+        <div className="logement_detail">
           <p className="titleDescription">{product.title}</p>
           <p className="location">{product.location}</p>
           <div className="tagLogement">
@@ -25,7 +25,7 @@ function Logement() {
           <div className="rateLogement">
             <Rating rating={product.rating} />
             <div className="host">
-              <p>{product.host.name}</p>
+              <p className="host_name">{product.host.name}</p>
               <img
                 src={product.host.picture}
                 alt="host_picture"
