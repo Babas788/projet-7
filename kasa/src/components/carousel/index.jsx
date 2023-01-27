@@ -22,12 +22,12 @@ function Carousel ({ data }) {
             key={index}
             className={
               index === current
-                ? "active_image"
-                : "inactive_image"
+                ? ""
+                : ""
             }
           >
             {index === current && (
-              <img src={picture} alt="" className="picture_product" />
+              <img src={data[current]} alt="" className="picture_product" />
             )}
           </div>
         );

@@ -15,7 +15,9 @@ function Cards() {
                   alt="pictureLogement"
                   className="pictureLogement"
                 />
-                <p className="title">{product.title}</p>
+                <div className="title">
+                <p>{product.title}</p>
+                </div>
               </Link>
             </article>
           );

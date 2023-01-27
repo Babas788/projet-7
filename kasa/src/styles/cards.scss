@@ -20,20 +20,7 @@
     background: #FF6060;
     object-fit: cover;
 }
-.title{
-    position: absolute;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 142.6%;
-    display: flex;
-    align-items: flex-end;
-    color: #FFFFFF;
-    margin: 188px 19.71px 15px 19.71px;
-    height: 52px;
-    width: 295.5882568359375px;
-}
+
 @media screen and (min-width: 768px){
     .homeProducts{
         margin: 43px 100px 70px 100px;
@@ -48,18 +35,25 @@
       height: 340px;
       width: 31%;
     }
+    .link{
+        text-decoration: none;
+    }
     .pictureLogement{
         width: 100%;
     }
     .title{
         color: #FFFFFF;
+        width: 80%;
+        display: flex;
+        margin-top: -90px;
+        margin-left: 20px;
+        text-decoration: none;
+        overflow: inherit;
+        word-break: break-word;
         font-family: "Montserrat";
         font-size: 18px;
         font-weight: 500;
         line-height: 26px;
         letter-spacing: 0em;
-        text-align: left;
-        margin: 268px 20px 20px 20px;
-        height: 52px;
     }
 }

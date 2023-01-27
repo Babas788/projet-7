@@ -84,9 +84,15 @@ color: #FF6060;
         height:415px;
         margin-top: 25px;
     }
-    .collapseLogement{
+    .collapse_Logement{
         display: flex;
         justify-content: space-between;
+    }
+    .collapse_Logement_description{
+        width: 45%;
+    }
+    .collapse_Logement_equipements{
+        width: 45%;
     }
     .logement_precision{
         display: flex;

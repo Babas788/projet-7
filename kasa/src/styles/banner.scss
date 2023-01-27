@@ -31,14 +31,12 @@ color: #FFFFFF;
 @media screen and (min-width: 768px){
 
     .banner{
-        border: 1px solid red;
         margin: 0px 100px 0px 100px;
     }
     .bannerImg{
         height: 223px;
         border-radius: 25px;
         object-fit: cover;
-        border: 1px solid purple;
         width: 100%;
     }
     .text{
