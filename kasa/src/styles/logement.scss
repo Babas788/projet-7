@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
-
 
 .logement{
     display: flex;
@@ -8,28 +6,20 @@
 }
 
 .productImage{
-width: 100%;
-border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .logement_detail{
-display: flex;
+   display: flex;
 flex-direction: column;
 justify-content: flex-start;
 }
 
 .titleDescription{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
 color: #FF6060;
 }
 .location{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
 color: #FF6060;
 }
 

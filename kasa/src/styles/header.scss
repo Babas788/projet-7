@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 .header-logo{
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     color: #FF6060;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     size: 18px;
     font-weight: 500;
 }
@@ -41,7 +41,6 @@
     width: 21%;
     }
     .navButton{
-        font-family: 'Roboto', sans-serif;
         font-size: 24px;
         font-weight: 500;
         line-height: 34px;

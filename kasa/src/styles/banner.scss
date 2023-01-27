@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
 .banner{
     display: flex;
     align-items: center;
@@ -17,16 +19,16 @@
 }
 
 .text{
-position: absolute;
-left: 9.6%;
-right: 32.53%;
-top: 14%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-color: #FFFFFF;
+   position: absolute;
+   left: 9.6%;
+   right: 32.53%;
+   top: 14%;
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 100%;
+   color: #FFFFFF;
 }
 @media screen and (min-width: 768px){
 
@@ -44,7 +46,6 @@ color: #FFFFFF;
         width: 50%;
         left: 28%;
         top: 23%;
-        font-family: 'Montserrat';
         font-size: 48px;
         font-weight: 500;
         line-height: 68px;
