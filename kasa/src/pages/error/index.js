@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Error() {
   return (
     <div className="error">
@@ -5,7 +7,9 @@ function Error() {
       <h2 className="packshot">
         Oups! La page que vous demandez n'existe pas.
       </h2>
-      <p className="indication">Retournez sur la page d'acceuil</p>
+      <Link to={`/`} className="indication">
+        Retournez sur la page d'acceuil
+      </Link>
     </div>
   );
 }
