@@ -5,15 +5,15 @@ import React from 'react';
 function Cards() {
   return (
     <>
-      <section className="homeProducts">
+      <section className="home_products">
         {Products.map((product) => {
           return (
-            <article key={product.id} className="cardsLogement">
+            <article key={product.id} className="cards_logement">
               <Link to={`/logement/${product.id}`} className="link">
                 <img
                   src={product.cover}
-                  alt="pictureLogement"
-                  className="pictureLogement"
+                  alt="picture_logement"
+                  className="picture_logement"
                 />
                 <div className="title">
                 <p>{product.title}</p>

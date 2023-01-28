@@ -13,16 +13,16 @@ function Logement() {
       <Carousel data={product.pictures} />
       <div className="logement_precision">
         <div className="logement_detail">
-          <p className="titleDescription">{product.title}</p>
+          <p className="title_description">{product.title}</p>
           <p className="location">{product.location}</p>
-          <div className="tagLogement">
+          <div className="tag_logement">
             {product.tags.map((tag, index) => (
               <Tags key={index} tagLogement={tag} className="tag" />
             ))}
           </div>
         </div>
         <div className="renseignements">
-          <div className="rateLogement">
+          <div className="rate_logement">
             <Rating rating={product.rating} />
             <div className="host">
               <p className="host_name">{product.host.name}</p>

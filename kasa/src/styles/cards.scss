@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
-.homeProducts{
+.home_products{
     margin: 22px 19px 20px 21px;
 }
 .link{
     text-decoration: none;
 }
-.cardsLogement{
+.cards_logement{
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -16,7 +16,7 @@
 .link{
     width: 100%;
 }
-.pictureLogement{
+.picture_logement{
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -36,20 +36,20 @@
 }
 
 @media screen and (min-width: 890px){
-    .homeProducts{
+    .home_products{
         margin: 43px 100px 70px 100px;
         padding: 25px;
         border-radius: 25px;
         background: #F7F7F7;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .cardsLogement{
+    .cards_logement{
       height: 340px;
       width: 31%;
     }
-    .pictureLogement{
+    .picture_logement{
         width: 100%;
     }
     .title{

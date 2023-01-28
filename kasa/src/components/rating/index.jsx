@@ -11,14 +11,14 @@ function Rating ({ rating }) {
         rating >= star ? (
           <img
             key={star.toString()}
-            className="fullStar"
+            className="full_star"
             src={FullStar}
             alt="FullStar"
           />
         ) : (
           <img
             key={star.toString()}
-            className="WeakStar"
+            className="Weak_star"
             src={WeakStar}
             alt="WeakStar"
           />
