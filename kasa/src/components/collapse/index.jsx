@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CollapseDown from "../../assets/collapseDown.svg";
 import CollapseUp from "../../assets/collapseUp.svg";
 
-function Collapse ({ title, content, liste }) {
+function Collapse ({ title, content }) {
   const [isActive, setIsActive] = useState(false);
 
   return (

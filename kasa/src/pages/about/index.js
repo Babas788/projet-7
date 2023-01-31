@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       <Banner image={Aboutimg} text="" />
-      <div className="aboutDescription">
+      <div className="about_description">
         <Collapse
           title="Fiabilité"
           content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les  informations sont régulièrement vérifiées  par nos équipes."

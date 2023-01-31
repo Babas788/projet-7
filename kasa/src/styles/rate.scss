@@ -1,0 +1,22 @@
+.full_star{
+    width: 15px;
+    height: 15px;
+}
+
+.Weak_star{
+    width: 15px;
+    height: 15px;
+}
+
+
+@media screen and (min-width: 890px){
+.full_star{
+    width: 30px;
+    height: 30px;
+}
+
+.Weak_star{
+    width: 30px;
+    height: 30px;
+}
+}
