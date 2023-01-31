@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
 .error{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .error_code{
-    font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-weight: 700;
     line-height: 137px;
@@ -15,7 +14,6 @@
     margin-bottom: 0px;
 }
 .packshot{
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -25,7 +23,6 @@
 }
 .indication{
     text-decoration-line: underline;
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
 .logement{
     display: flex;
     flex-direction: column;
@@ -9,19 +9,16 @@
    display: flex;
 flex-direction: column;
 justify-content: flex-start;
-font-family: 'Montserrat', sans-serif;
 margin-top: -30px;
 }
 
 .title_description{
 color: #FF6060;
-font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 font-size: 18px;
 }
 .location{
 color: #FF6060;
-font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 font-size: 14px;
 margin-top: -10px;
@@ -33,7 +30,6 @@ margin-bottom: 25px;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
     margin-top: -10px;
 }
 
@@ -43,7 +39,6 @@ margin-bottom: 25px;
 }
 .tag{
     margin-right: 15px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .rate_logement{
@@ -54,7 +49,6 @@ margin-bottom: 25px;
     align-items: center;
 }
 .collapse_Logement{
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 13px;
     margin-bottom: 30px;
@@ -74,7 +68,6 @@ margin-bottom: 25px;
 }
 .host_name{
     color: #FF6060;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 12px;
 }
@@ -130,9 +123,12 @@ margin-bottom: 25px;
         border-radius: 50px;
     }
     .host_name{
+        margin-left: 40px;
+        width: 100px;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
+        text-align: end;
     }
     
 }
