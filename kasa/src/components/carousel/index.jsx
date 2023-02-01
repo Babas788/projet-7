@@ -16,22 +16,7 @@ function Carousel ({ data }) {
 
   return (
     <div className="carousel">
-      {data.map((picture, index) => {
-        return (
-          <div
-            key={index}
-            className={
-              index === current
-                ? ""
-                : ""
-            }
-          >
-            {index === current && (
-              <img src={data[current]} alt="" className="picture_product" />
-            )}
-          </div>
-        );
-      })}
+      <img src={data[current]} alt="" className="picture_product" />  
       {length > 1 ? (
         <div className='arrow'>
           <div className="arrowSlide" onClick={previousProduct}>
