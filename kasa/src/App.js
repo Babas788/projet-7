@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/logement/:id" element={<Logement />} />
           <Route path="/About" element={<About />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/logement/:id*" element={<Error />} />
         </Routes>
       </main>
       <footer>
