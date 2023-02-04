@@ -17,6 +17,7 @@ function Carousel ({ data }) {
   return (
     <div className="carousel">
       <img src={data[current]} alt="" className="picture_product" />  
+      <p className="length">{current}/{length}</p>
       {length > 1 ? (
         <div className='arrow'>
           <div className="arrowSlide" onClick={previousProduct}>
